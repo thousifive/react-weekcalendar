@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 equal-width columns */
+  grid-gap: 0; /* Adjust the gap between grid items as per your preference */
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-item {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
